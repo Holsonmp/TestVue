@@ -12,10 +12,10 @@
 
         </article>
     </div>
-    
+
 </template>
 <script setup>
-    const { data:posts, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/posts?_limit=10',{
+    const { data:posts, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/posts?_limit=50',{
         
     })
 </script>
