@@ -15,7 +15,7 @@
 
 </template>
 <script setup>
-    const { data:posts, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/posts?_limit=50',{
+    const { data:posts, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/posts?_limit=10',{
         
     })
 </script>
