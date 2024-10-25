@@ -1,3 +1,8 @@
 <template>
-    <h1>Your guide to everywhere</h1>
+    <main>
+        <h1>{{ route.params.id }}</h1>
+    </main>
 </template>
+<script setup>
+    const route = useRoute();
+</script>
