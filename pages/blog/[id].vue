@@ -11,7 +11,7 @@
 </template>
 <script setup>
     const route = useRoute();
-    const { data:post, pending, error, refresh } = await useFetch('https://jsonplaceholder.typicode.com/posts/' + route.params.id,{
+    const { data:post} = await useFetch('https://jsonplaceholder.typicode.com/posts/' + route.params.id,{
         lazy:true
     })
     useSeoMeta({
